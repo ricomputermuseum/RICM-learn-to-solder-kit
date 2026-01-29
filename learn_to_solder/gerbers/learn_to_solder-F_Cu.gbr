@@ -1,0 +1,169 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
+%TF.CreationDate,2026-01-28T21:56:10-05:00*%
+%TF.ProjectId,learn_to_solder,6c656172-6e5f-4746-9f5f-736f6c646572,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L1,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2026-01-28 21:56:10*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMOutline5P*
+0 Free polygon, 5 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 5*
+0 $1 to $10 corner X, Y*
+0 $11 Rotation angle, in degrees counterclockwise*
+0 create outline with 5 corners*
+4,1,5,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$1,$2,$11*%
+%AMOutline6P*
+0 Free polygon, 6 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 6*
+0 $1 to $12 corner X, Y*
+0 $13 Rotation angle, in degrees counterclockwise*
+0 create outline with 6 corners*
+4,1,6,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$1,$2,$13*%
+%AMOutline7P*
+0 Free polygon, 7 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 7*
+0 $1 to $14 corner X, Y*
+0 $15 Rotation angle, in degrees counterclockwise*
+0 create outline with 7 corners*
+4,1,7,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$1,$2,$15*%
+%AMOutline8P*
+0 Free polygon, 8 corners , with rotation*
+0 The origin of the aperture is its center*
+0 number of corners: always 8*
+0 $1 to $16 corner X, Y*
+0 $17 Rotation angle, in degrees counterclockwise*
+0 create outline with 8 corners*
+4,1,8,$1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$1,$2,$17*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10Outline8P,-7.350000X1.035000X-5.797500X2.587500X5.797500X2.587500X7.350000X1.035000X7.350000X-1.035000X5.797500X-2.587500X-5.797500X-2.587500X-7.350000X-1.035000X0.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11R,1.800000X1.800000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12C,1.800000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13O,3.500000X2.200000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14R,2.500000X1.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD15O,2.500000X1.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD16R,1.600000X1.600000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD17C,1.600000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD18O,1.600000X1.600000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD19R,1.500000X1.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD20C,1.500000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,REF\u002A\u002A,1*%
+%TO.N,N/C*%
+X130250000Y-59250000D03*
+%TD*%
+D11*
+%TO.P,D1,1,K*%
+%TO.N,Net-(D1-Pad1)*%
+X153000000Y-80000000D03*
+D12*
+%TO.P,D1,2,A*%
+%TO.N,Net-(BT1-Pad1)*%
+X155540000Y-80000000D03*
+%TD*%
+D13*
+%TO.P,SW1,*%
+%TO.N,*%
+X94297500Y-79600000D03*
+X94297500Y-71400000D03*
+D14*
+%TO.P,SW1,1,A*%
+%TO.N,GND*%
+X94297500Y-77500000D03*
+D15*
+%TO.P,SW1,2,B*%
+%TO.N,Net-(BT1-Pad2)*%
+X94297500Y-75500000D03*
+%TO.P,SW1,3,C*%
+%TO.N,unconnected-(SW1-Pad3)*%
+X94297500Y-73500000D03*
+%TD*%
+D16*
+%TO.P,R2,1*%
+%TO.N,Net-(Q1-Pad2)*%
+X113500000Y-89000000D03*
+D17*
+%TO.P,R2,2*%
+%TO.N,GND*%
+X118500000Y-89000000D03*
+%TD*%
+%TO.P,R1,1*%
+%TO.N,Net-(BT1-Pad1)*%
+X87000000Y-70420000D03*
+D18*
+%TO.P,R1,2*%
+%TO.N,Net-(Q1-Pad2)*%
+X87000000Y-80580000D03*
+%TD*%
+D17*
+%TO.P,R4,1*%
+%TO.N,Net-(D2-Pad1)*%
+X138080000Y-89000000D03*
+D18*
+%TO.P,R4,2*%
+%TO.N,Net-(Q1-Pad3)*%
+X127920000Y-89000000D03*
+%TD*%
+D17*
+%TO.P,R3,1*%
+%TO.N,Net-(D1-Pad1)*%
+X138080000Y-95000000D03*
+D18*
+%TO.P,R3,2*%
+%TO.N,Net-(Q1-Pad3)*%
+X127920000Y-95000000D03*
+%TD*%
+D11*
+%TO.P,D2,1,K*%
+%TO.N,Net-(D2-Pad1)*%
+X153000000Y-69000000D03*
+D12*
+%TO.P,D2,2,A*%
+%TO.N,Net-(BT1-Pad1)*%
+X155540000Y-69000000D03*
+%TD*%
+D19*
+%TO.P,Q1,1,E*%
+%TO.N,GND*%
+X108000000Y-76000000D03*
+D20*
+%TO.P,Q1,2,B*%
+%TO.N,Net-(Q1-Pad2)*%
+X105460000Y-76000000D03*
+%TO.P,Q1,3,C*%
+%TO.N,Net-(Q1-Pad3)*%
+X102920000Y-76000000D03*
+%TD*%
+M02*
